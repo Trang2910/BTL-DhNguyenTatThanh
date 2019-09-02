@@ -1,6 +1,6 @@
 body {
 	margin: 0px auto;
-	font-size: 13px;
+	font-family: 'Open Sans',sans-serif;
 }
 
 #menu1 {
@@ -8,23 +8,25 @@ body {
 	text-decoration: none;
 	justify-content: space-between;
 	background-color: #024282;
-	padding-right: 70px;
-    padding-left: 70px;
 }
 
 a {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 
 #menu1 div {
 	width: 100%;
+	margin: auto;
+	text-align: center;
 }
 
 .nav1 {
 	font-size: 13px;
-	font-family: 'Open Sans',sans-serif;
-	line-height: 1.7;
+}
+
+#nav2 {
+	padding-top: 15px;
 }
 
 .nav2 {
@@ -46,27 +48,82 @@ a {
 	display: flex;
 	height: 100px;
 	padding-top: 20px;
-	padding-right: 70px;
-    padding-left: 70px;
 }
 
-.btn btn-gnav{
-	    content: '';
-    border-style: solid;
-    border-width: 50px 50px 0 50px;
-    border-color: rgba(0,0,0,0.15) transparent transparent transparent;
-    position: absolute;
-    top: 2px;
-    left: 0;
-    z-index: 95;
-}
 /*@media only screen and (max-width: 992px) {
 	input {
 		display: block;
 	}
 }*/
-*@media only screen and (max-width: 1195px) {
-	#menu2 {
+
+#carouselExampleCaptions {
+	padding-right: 40px; 
+	padding-left: 40px;
+}
+
+@media only screen and (max-width: 1195px) {
+	 {
 		display: none;
 	}
+	#carouselExampleCaptions {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	
+}
+
+@media only screen and (max-width: 1195px){
+    .col-3{
+        float: none;
+        width: 100%;
+    }
+}
+
+.menu-main {
+	background-color: rgba(2, 66, 130, 0.95);
+}
+
+.menu-main a {
+	color: #fff;
+	font-size: 14px;
+	background-color: rgba(2, 66, 130, 0.95) !important;
+}
+
+.menu-main a:hover {
+	color: #fdb913;
+}
+
+.menu-main h5 {
+	font-size: 18px;
+}
+
+.menu-main.menu-icon a {
+	background-color: #fff !important;
+	color: black;
+}
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.45);
+	width: auto;
+	height: 100px;
+}
+
+.card a {
+	font-size: 19px;
+}
+
+.card p {
+	font-size: 13px;
+}
+
+#main h5 {
+	border-bottom: 2px solid #aa914d ;
+}
+
+ul {
+	list-style: none;
+}
+
+.card {
+	border: 0;
 }
