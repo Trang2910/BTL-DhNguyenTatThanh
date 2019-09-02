@@ -1,5 +1,6 @@
 body {
 	margin: 0px auto;
+	font-size: 13px;
 }
 
 #menu1 {
@@ -7,6 +8,8 @@ body {
 	text-decoration: none;
 	justify-content: space-between;
 	background-color: #024282;
+	padding-right: 70px;
+    padding-left: 70px;
 }
 
 a {
@@ -20,6 +23,8 @@ a {
 
 .nav1 {
 	font-size: 13px;
+	font-family: 'Open Sans',sans-serif;
+	line-height: 1.7;
 }
 
 .nav2 {
@@ -41,8 +46,20 @@ a {
 	display: flex;
 	height: 100px;
 	padding-top: 20px;
+	padding-right: 70px;
+    padding-left: 70px;
 }
 
+.btn btn-gnav{
+	    content: '';
+    border-style: solid;
+    border-width: 50px 50px 0 50px;
+    border-color: rgba(0,0,0,0.15) transparent transparent transparent;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    z-index: 95;
+}
 /*@media only screen and (max-width: 992px) {
 	input {
 		display: block;
