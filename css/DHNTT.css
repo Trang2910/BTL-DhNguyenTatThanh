@@ -50,34 +50,9 @@ a {
 	padding-top: 20px;
 }
 
-/*@media only screen and (max-width: 992px) {
-	input {
-		display: block;
-	}
-}*/
-
 #carouselExampleCaptions {
-	padding-right: 40px; 
-	padding-left: 40px;
-
-}
-
-@media only screen and (max-width: 1195px) {
-	 {
-		display: none;
-	}
-	#carouselExampleCaptions {
-		padding-right: 5px;
-		padding-left: 5px;
-	}
-	
-}
-
-@media only screen and (max-width: 1195px){
-    .col-3{
-        float: none;
-        width: 100%;
-    }
+	padding-right: 30px; 
+	padding-left: 30px;
 }
 
 .menu-main {
@@ -124,13 +99,70 @@ a {
 ul {
 	list-style: none;
 }
-.carousel-inner{
-	padding: 16px 12% 12px;
+
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 35px solid green;
+    z-index: 3;
+    position: relative;
 }
+
+#triangle-button {
+	z-index: 4;
+	position: absolute;
+	top: -300%;
+	left: -2%;
+}
+
+.dropdown {
+	display: flex;
+    justify-content: center;
+}
+
 .carousel-inner img {
 	width: 100%;
 	height: 100%;
 }
 .card {
 	border: 0;
+}
+
+.btn-responsive {
+	display: none;
+}
+
+
+@media only screen and (max-width: 1200px){
+    .nav2{
+    	display: none !important;
+    }
+
+	.dropdown {
+		display: flex;
+    	justify-content: flex-end;
+	}
+
+    #triangle-down{
+    	display: none;
+    	
+    }
+
+	.btn-responsive{
+		display: flex;
+	}
+
+    .btn-middle{
+    	/*display: flex;*/
+
+    }
+    .desktop-triangle{
+    	display: block;
+    	position: unset;
+    }
+
+
+
 }
