@@ -1,6 +1,8 @@
 body {
 	margin: 0px auto;
 	font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
 }
 
 #menu1 {
@@ -95,11 +97,81 @@ a {
 #main h5 {
 	border-bottom: 2px solid #aa914d ;
 }
-
+#main h5 a{
+	color: #252525;
+    text-decoration: none;
+}
+#main a h4{
+	color: cornsilk;     
+	text-align: center;
+	padding-top: 60px;
+}
+                           
+#main .col-md-4 a{
+	text-decoration: none;
+}
+.mtht{
+	background-color: #024282;
+	width: 100px;
+	height: 100px;    
+	position: relative;  
+	text-align: center !important;   
+	color: #fff !important;     
+	margin-right: 1rem !important;    
+	margin-right: 1rem !important;
+	display: flex !important;    
+	font-size: 24px;line-height: 1.2;
+}
+footer .copyright {
+    background-color: #fff;
+	color: #2e313a;
+}
+.container {
+    position: relative;
+    margin-left: auto;
+	margin-right: auto;
+	width: auto !important;
+    max-width: 1200px;
+}
+footer {
+	margin-top: 30px;
+}
+.mau li a{
+	color: #a1a1a1;
+}
+#mau1 {
+	color: white;
+	font-weight: bolder;
+}
+.mau .btn {
+    width: 100%;
+    color: #fff;
+    background-color: #42719f;
+    text-align: left;
+}
+.mau{
+	padding-right: 30px;
+}
+.mau li {
+    margin-bottom: 5px;
+}
 ul {
 	list-style: none;
 }
-
+#ct{
+	text-align: center !important;
+	color: #b7b7b7;
+	font-size: 16px;
+	line-height: 1.4; 
+	padding-right: 60px;
+	padding-left: 60px;
+}
+#ha{
+	background-image: url(http://ntt.edu.vn/web/upload/images/hp_nguoithay-01.svg);    
+	background-repeat: no-repeat !important;    
+	background-position: center !important;     
+	background-size: 132px !important;
+}
 #triangle-down {
     width: 0;
     height: 0;
