@@ -161,7 +161,70 @@ ul {
     	display: block;
     	position: unset;
     }
+}
 
+.head{
+	border-bottom: 10px solid #dad4c2;
+	background-color: #efece8;
+	padding-top: 20px;
+	padding-left: 20px;
+}
 
+.body{
+	padding: 20px;
+	background-color: #efece8;
+}
 
+.body li{
+	list-style-type: disc;
+	font-weight: 600;
+	padding-top: 10px;
+}
+
+.img img{
+	height: 331px;
+}
+
+article {
+	font-size: 16px;
+	background-color: #efece8;
+	padding: 20px;			
+}
+
+.main{
+	display: flex;
+}
+
+.main img{
+	height: 96px;
+	margin-right: 20px;
+}
+
+.main h5>a{
+	color: #024282;
+}
+
+.col-3 h3{
+	font-size: 14px;
+}
+
+#main .row{
+	width: 90%;
+	margin: 0px auto;
+}
+
+.body img{
+	height: 125px;
+}
+
+@media only screen and (max-width: 1290px){ 
+	.body img, .img img { 
+		max-width: 100%; 
+		height: auto;
+	}
+
+	#main .row{
+		width: 100%;
+		margin: 0px auto;
+	}
 }

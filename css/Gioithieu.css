@@ -166,11 +166,7 @@ ul {
 
 }
 
-.col-md-3{
-	padding: 24px;
-	/*margin-top: 30px;*/
-	padding-left: 80px;
-}
+
 
 .head{
 	border-bottom: 10px solid #dad4c2;
@@ -190,8 +186,12 @@ ul {
 	padding-top: 10px;
 }
 
+.body img{
+	height: 125px;
+}
+
 .img img{
-	height: 331px;
+	height: 437px;
 }
 
 article {
@@ -211,4 +211,28 @@ article {
 
 .main h5>a{
 	color: #024282;
+}
+
+.col-3 h3{
+	font-size: 14px;
+}
+
+#main .row{
+	width: 90%;
+	margin: 0px auto;
+}
+
+.body img{
+	height: 125px;
+}
+
+@media only screen and (max-width: 1290px){ 
+	.body img, .img img { 
+		max-width: 100%; 
+		height: auto;
+	}
+	#main .row{
+		width: 100%;
+		margin: 0px auto;
+	}
 }
