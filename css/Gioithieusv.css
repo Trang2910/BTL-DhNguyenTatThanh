@@ -1,0 +1,11 @@
+body{
+    font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.nav .active{
+    background-color: rgb(253, 249, 249); color:mediumblue
+}
+.footer{
+    background-color: blue; color:rgb(253, 249, 249); text-align: center
+}
