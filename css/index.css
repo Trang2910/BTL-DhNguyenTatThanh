@@ -10,6 +10,7 @@ body {
 	text-decoration: none;
 	justify-content: space-between;
 	background-color: #024282;
+	align-items: center;
 }
 
 a {
@@ -23,8 +24,13 @@ a {
 	text-align: center;
 }
 
+ul .nav-item {
+	margin-left: 70px;
+}
+
 .nav1 {
 	font-size: 13px;
+	color: white !important;
 }
 
 #nav2 {
@@ -49,34 +55,18 @@ a {
 #menu2 {
 	display: flex;
 	height: 100px;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 #carouselExampleCaptions {
-	padding-right: 30px; 
-	padding-left: 30px;
-	/* position: relative; */
-}
-
-/* .carousel-control-prev {
-	position: absolute;
-	top: 75%;
-	left: 82%;
-} */
-
-/* .carousel-control-next {
-	position: absolute;
-	top: 75%;
-} */
-
-.menu-main {
-	background-color: rgba(2, 66, 130, 0.95);
+	padding-right: 50px; 
+	padding-left: 50px;
 }
 
 .menu-main a {
 	color: #fff;
 	font-size: 14px;
-	background-color: rgba(2, 66, 130, 0.95) !important;
+	background-color: rgba(2, 66, 130, 0.5) !important;
 }
 
 .menu-main a:hover {
@@ -145,7 +135,7 @@ footer .copyright {
     background-color: #fff;
 	color: #2e313a;
 }
-.container {
+.copyright .container {
     position: relative;
     margin-left: auto;
 	margin-right: auto;
@@ -176,6 +166,7 @@ footer {
 ul {
 	list-style: none;
 }
+
 #ct{
 	text-align: center !important;
 	color: #b7b7b7;
@@ -190,26 +181,37 @@ ul {
 	background-size: 132px !important;
 	padding-top: 50px
 }
-#triangle-down {
-    width: 0;
+
+div .show {
+	transform: none !important;
+	padding: 0px;
+}
+
+.span {
+	width: 0;
     height: 0;
-    border-left: 35px solid transparent;
-    border-right: 35px solid transparent;
-    border-top: 35px solid green;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid white;
     z-index: 3;
+    font-size:200px;
     position: relative;
 }
 
 #triangle-button {
 	z-index: 4;
 	position: absolute;
-	top: -300%;
-	left: -2%;
+	top: -52px;
+	left: -14px;
 }
 
 .dropdown {
 	display: flex;
     justify-content: center;
+}
+
+.dropdown-menu {
+	background-color: rgba(2,66,130,0.90);
 }
 
 .carousel-inner img {
@@ -222,10 +224,33 @@ ul {
 
 .btn-responsive {
 	display: none;
+	z-index: 2; 
+	background-color: white; 
+	border: 1px solid rgba(0, 0,100, 0.1); 
+	top: -90px; 
+	position: absolute;
+}
+
+div .show{
+	position: 0px !important;
+	margin: 0px !important;
 }
 
 
+
+
 @media only screen and (max-width: 1200px){
+
+	.menu-main {
+		display: inline-block;
+		width: 100%;
+	}
+
+	div .show {
+		border: none;
+		margin-right: 15px;
+	}
+
     .nav2{
     	display: none !important;
     }
@@ -235,7 +260,7 @@ ul {
     	justify-content: flex-end;
 	}
 
-    #triangle-down{
+    .span {
     	display: none;
     	
     }
@@ -243,16 +268,10 @@ ul {
 	.btn-responsive{
 		display: flex;
 	}
-
-    .btn-middle{
-    	/*display: flex;*/
-
-    }
-    .desktop-triangle{
-    	display: block;
-    	position: unset;
-    }
-
-
+	
+	#carouselExampleCaptions {
+		padding-right: 0px; 
+		padding-left: 0px;
+	}
 
 }
