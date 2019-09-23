@@ -31,7 +31,8 @@
                             <i class="fas fa-search" style="color: white; padding:15px;"></i>
                         </span>
                     </div>
-                </form>
+                </form> 
+                <img src="image/E.jpg" alt="" style="width:20px; height:15px; margin-right: 200px">
                 </div>
             </div>
 

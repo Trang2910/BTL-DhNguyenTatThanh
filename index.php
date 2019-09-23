@@ -82,31 +82,31 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="card" >
-                                    <img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201908_TIN/3e3.JPG" class="card-img-top" alt="...">
+                                    <a href="News1.html"><img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201908_TIN/36996677083_a06a2a29fc_o.jpg" class="card-img-top" alt="..."></a>
                                     <div class="card-body">
-                                        <a href="">Rộn ràng đêm hội âm nhạc chào đón tân sinh viên của Trường ĐH Nguyễn Tất Thành</a>
+                                        <a href="News1.html">Những lý do nên chọn học thạc sĩ tại Trường ĐH Nguyễn Tất Thành</a>
                                         <br><br>
-                                        <p>NTTU - Ngày 31/8 Trường ĐH Nguyễn Tất Thành đã tổ chức thành công chương trình Gala “Chào đón tân sinh viên – Khóa 2019” tại Nhà thi đấu Quân khu 7 (số 202 Hoàng Văn Thụ, Phường 9, Phú Nhuận, Hồ Chí </p>
+                                        <p style="text-align: justify;">NTTU - Hiện nay, có rất nhiều trường ĐH được đào tạo thạc sĩ, tiến sĩ… nhu cầu người học cũng nhiều nhưng để tìm được một môi trường học tập có chất lượng đào tạo cao,  đáp ứng được nhu cầu của các học viên </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="card" >
-                                    <img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201908_TIN/4(2).JPG" class="card-img-top" alt="...">
+                                    <a href=""><img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201909_TIN/13(1).JPG" class="card-img-top" alt="..." style="width:100%; height:204px"></a> 
                                     <div class="card-body">
-                                        <a href="">Tân sinh viên khoa Dược ĐH Nguyễn Tất Thành hăng hái tham gia cuộc thi Tôi là Dược</a>
+                                        <a href="">ĐH Nguyễn Tất Thành phối hợp tổ chức Workshop “Youtube đã làm thay đổi cuộc </a>
                                         <br><br>
-                                        <p>NTTU – Ngày 29/08/2019, CLB Học thuật khoa Dược NTT Trường ĐH Nguyễn Tất Thành đã tổ chức vòng sơ khảo cuộc thi “Tôi là Dược sĩ trẻ” thu hút sự tham gia đông đảo sinh viên các khóa, đặc biệt là các bạn tân</p>
+                                        <p style="text-align: justify;">NTTU – Sáng ngày 19/09/2019, tại cơ sở An Phú Đông, Trường ĐH Nguyễn Tất Thành phối hợp cùng Công ty Truyền thông và Giải trí Điền Quân tổ chức chương trình Workshop “Youtube đã làm thay đổi cuộc sống của tôi</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="card" >
-                                    <img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201908_TIN/Web_Post.jpg" class="card-img-top" alt="..." style="height: 204px;">
+                                    <a href=""><img src="http://ntt.edu.vn/web/upload/images/Khoa-nganh/ketoan-taichinh-thumb.png" class="card-img-top" alt="..." style="height: 204px;"></a> 
                                     <div class="card-body">
-                                        <a href="">ĐH Nguyễn Tất Thành nhận hồ sơ xét tuyển học bạ đợt cuối đến ngày 03/09/2019</a>
+                                        <a href="">ĐH Nguyễn Tất Thành tuyển sinh liên thông các ngành đào tạo</a>
                                         <br><br>
-                                        <p>NTTU - Với ưu điểm linh hoạt, thuận tiện và đặc biệt là cho phép thí sinh (TS) chủ động hơn trong quá trình xét tuyển, phương thức xét tuyển bằng học bạ lớp 12 đang dần khẳng định được sức hút của mình.Theo đó,</p>
+                                        <p>NTTU - ĐH Nguyễn Tất Thành tuyển sinh liên thông các ngành đào tạo...</p>
                                     </div>
                                 </div>
                             </div>
@@ -120,22 +120,22 @@
                       <h5><a href="">Media</a></h5>
                         <br>
                         <div class="card" style="height: 463px;">
-                            <iframe style="width: inherit;" src="https://www.youtube.com/embed/SwWJkVE6vMg" frameborder="0" allowfullscreen=""></iframe>
+                            <iframe style="width: inherit;" src="https://www.youtube.com/embed/JViDyojZzhs" frameborder="0" allowfullscreen=""></iframe>
                             <div class="card-body">
                                 <ul>
                                     <li>
                                         <i class="fa fa-angle-right"></i>
+                                        <a href="" style="font-size: 14px;">ĐIỂM TIN THÁNG 8</a>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <i class="fa fa-angle-right"></i>
+                                        <a href="" style="font-size: 14px;">ĐH Nguyễn Tất Thành – 20 năm dấu ấn một chặng đường</a>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <i class="fa fa-angle-right"></i>
                                         <a href="" style="font-size: 14px;">NỎ THẦN - TẬP 8 | BẬT MÍ VỀ NỎ THẦN VÀ NHỮNG CÂU CHUYỆN CÓ THẬT</a>
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <i class="fa fa-angle-right"></i>
-                                        <a href="" style="font-size: 14px;">NỎ THẦN | TẬP CUỐI: ĐƯỜNG VỀ QUY LẠC</a>
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <i class="fa fa-angle-right"></i>
-                                        <a href="" style="font-size: 14px;">NỎ THẦN - TẬP 9 | GIẢI CỨU THỤC UY - SỰ THẬT HÉ LỘ</a>
                                     </li>
                                 </ul>
                             </div>
@@ -237,12 +237,12 @@
                       <h5><a href="">Hợp tác quốc tế</a></h5>
                       <div class="card" style="    flex-direction: column;">
                           <a class="#" href="#">
-                              <img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201905_TIN/a389bc0530ffd5a18cee.jpg" alt="" width="100% " height="200px">
+                              <img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201909_TIN/DSC04631.JPG" alt="" width="100% " height="200px">
                           </a>
                           <div class="card-body">
-                              <a href="" style="text-decoration: none;">ĐH Nguyễn Tất Thành tham gia Diễn đàn nâng cao chất lượng đào tạo Việt Nam – Lào và Triển lãm giáo dục Việt Nam 2019</a>
+                              <a href="" style="text-decoration: none;">Khoa Công nghệ Sinh học ĐH Nguyễn Tất Thành làm việc với ĐH Hiroshima</a>
                               <br><br>
-                              <p style="    font-family: 'Open Sans',sans-serif;">NTTU – Từ ngày 26/5 đến 30/05/2019 tại Trường ĐH Quốc gia Lào, Thủ đô Viêng Chăn, Cộng hòa Dân chủ Nhân dân Lào đã diễn ra Diễn đàn nâng cao chất lượng đào tạo Việt Nam – Lào và Triển lãm giáo dục Việt Nam 2019. ĐH Nguyễn Tất Thành là một trong số các trường ĐH tại Việt Nam tham gia diễn đàn này.</p>
+                              <p style="    font-family: 'Open Sans',sans-serif;" style="text-align: justify;">NTTU -  Sáng ngày 17/09/2019, khoa Công nghệ Sinh học Trường ĐH Nguyễn Tất Thành đã có buổi làm việc với ĐH Hiroshima (Nhật Bản)</p>
                           </div>
                       </div>
                       <ul class="list-unstyled" style="float: left;">
@@ -254,12 +254,12 @@
                       <h5><a href="">Môi trường học tập</a></h5>
                       <div class="card" style="    flex-direction: column;">
                           <a class="" href="/#">
-                            <img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201908_TIN/3e3.JPG" alt="" width="100%"height="200px">
+                            <img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201909_TIN/37635775082_b83f872e6e_o.jpg" alt="" width="100%"height="200px">
                         </a>
                           <div class="card-body">
-                              <a href="" class="" style="overflow: hidden; height: 65px;">Rộn ràng đêm hội âm nhạc chào đón tân sinh viên của Trường ĐH Nguyễn Tất Thành</a>
+                              <a href="" class="" style="overflow: hidden; height: 65px;">Nhật ký thực tập nhận thức của sinh viên khoa Du lịch và Việt Nam học Trường ĐH Nguyễn Tất Thành</a>
                               <br><br>
-                              <p>NTTU - Ngày 31/8 Trường ĐH Nguyễn Tất Thành đã tổ chức thành công chương trình Gala “Chào đón tân sinh viên – Khóa 2019” tại Nhà thi đấu Quân khu 7 (số 202 Hoàng Văn Thụ, Phường 9, Phú Nhuận, Hồ Chí Minh).  Đây là chương trình nằm trong chuỗi hoạt động chào đón tân sinh viên,</p>
+                              <p style="text-align: justify;">NTTU- Nhằm tạo cầu nối để sinh viên Khoa Du lịch và Việt Nam học Trường Đại học Nguyễn Tất Thành có cơ hội được tiếp cận thực tế, được trải nghiệm kiến thức chuyên môn liên quan đến ngành học qua đó giúp hình thành tình yêu nghề nghiệp đồng thời phát huy và tạo lập cho sinh viên một môi</p>
                           </div>
                       </div>
                       <ul class="list-unstyled" style="float: left;">
@@ -272,51 +272,51 @@
                                       <li class="media event">
               <div class="mtht" >
               <span class="inner text-center w-100">
-                  Aug<br>
-                  <b>31</b>
+                  Sep<br>
+                  <b>25</b>
               </span>
               </div>
               <div class="media-body">
-              <h6 class=""><a href=""><b>Gala chào đón Tân sinh viên</b> </a></h6>
+              <h6 class=""><a href=""><b>Đại hội đại biểu Đoàn TNCS Hồ CHí Minh - Trường ĐH Nguyễn Tất Thành lần VII, nhiệm kỳ 2019 - 2022</b> </a></h6>
               <ul class="" style="    padding-left: 0;">
                   <li class="">
-                      <i class="fa fa-clock-o mr-2" aria-hidden="true" ></i>15:00
+                      <i class="fa fa-clock-o mr-2" aria-hidden="true" ></i>7:30
                   </li>
-                  <li class="">Nhà thi đấu Quân khu 7 <br> <br> <br></li>
+                  <li class="">Hội trường A.801, 300A Nguyễn Tất Thành, phường 13, quận 4, TP. HCM <br> <br> <br></li>
               </ul>
               </div>
               </li>
                                       <li class="media event">
               <div class="mtht">
               <span class="inner text-center w-100">
-                  Aug<br>
-                  <b>24</b>
+                  Sep<br>
+                  <b>22</b>
               </span>
               </div>
               <div class="media-body">
-              <h6 class=""><a href=""><b>Hội thi Nhảy dân vũ, nhảy cổ động 2019</b> </a></h6>
+              <h6 class=""><a href=""><b>Chuyên đề tốt nghiệp lớp Việt Nam học - Khoa Du lịch và Việt Nam học</b> </a></h6>
               <ul class="  "style="    padding-left: 0;">
                   <li class="">
-                    <i class="fa fa-clock-o mr-2" aria-hidden="true"> </i>
+                    <i class="fa fa-clock-o mr-2" aria-hidden="true"> </i>7:00
                   </li>
-                  <li class="">Hội trường A.801, 300A Nguyễn Tất Thành, phường 13, quận 4, TP. HCM <br><br></li>
+                  <li class="">Sân bóng - cơ sở quận 7, 458/3F Nguyễn Hữu Thọ, phường Tân Hưng, quận 7 <br><br></li>
               </ul>
               </div>
               </li>
                                       <li class="media event">
               <div class="mtht">
               <span class="inner text-center w-100">
-                  Aug<br>
-                  <b>24</b>
+                  Sep<br>
+                  <b>19</b>
               </span>
               </div>
               <div class="media-body">
-              <h6 class=""><a href=""><b>Chung kết cuộc thi Ý tưởng sáng tạo khởi nghiệp mở rộng tại ĐH Nguyễn Tất Thành - NTTU Start-up Open Day 2019</b></a></h6>
+              <h6 class=""><a href=""><b>Workshop, Chủ đề: "Youtube đã thay đổi cuộc sống của tôi như thế nào''</b></a></h6>
               <ul class=""style="    padding-left: 0;">
                   <li class="">
                       <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>07:30
                   </li>
-                  <li class="">Hội trường lầu 9, cơ sở An Phú Đông, 331 Quốc lộ 1A, Phường An Phú Đông, Quận 12</li>
+                  <li class="">Hội trường L.HT1, 331 QL1A, phường An Phú Đông, quận 12</li>
               </ul>
               </div>
               </li>
