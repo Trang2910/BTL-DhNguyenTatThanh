@@ -92,9 +92,9 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="card" >
-                                    <a href=""><img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201909_TIN/13(1).JPG" class="card-img-top" alt="..." style="width:100%; height:204px"></a> 
+                                    <a href="News2.php"><img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201909_TIN/13(1).JPG" class="card-img-top" alt="..." style="width:100%; height:204px"></a> 
                                     <div class="card-body">
-                                        <a href="">ĐH Nguyễn Tất Thành phối hợp tổ chức Workshop “Youtube đã làm thay đổi cuộc </a>
+                                        <a href="News2.php">ĐH Nguyễn Tất Thành phối hợp tổ chức Workshop “Youtube đã làm thay đổi cuộc </a>
                                         <br><br>
                                         <p style="text-align: justify;">NTTU – Sáng ngày 19/09/2019, tại cơ sở An Phú Đông, Trường ĐH Nguyễn Tất Thành phối hợp cùng Công ty Truyền thông và Giải trí Điền Quân tổ chức chương trình Workshop “Youtube đã làm thay đổi cuộc sống của tôi</p>
                                     </div>
@@ -102,9 +102,9 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="card" >
-                                    <a href=""><img src="http://ntt.edu.vn/web/upload/images/Khoa-nganh/ketoan-taichinh-thumb.png" class="card-img-top" alt="..." style="height: 204px;"></a> 
+                                    <a href="News3.php"><img src="http://ntt.edu.vn/web/upload/images/Khoa-nganh/ketoan-taichinh-thumb.png" class="card-img-top" alt="..." style="height: 204px;"></a> 
                                     <div class="card-body">
-                                        <a href="">ĐH Nguyễn Tất Thành tuyển sinh liên thông các ngành đào tạo</a>
+                                        <a href="News3.php">ĐH Nguyễn Tất Thành tuyển sinh liên thông các ngành đào tạo</a>
                                         <br><br>
                                         <p>NTTU - ĐH Nguyễn Tất Thành tuyển sinh liên thông các ngành đào tạo...</p>
                                     </div>
@@ -234,13 +234,13 @@
             <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-4">
-                      <h5><a href="">Hợp tác quốc tế</a></h5>
+                      <h5><a href="Hoptacquocte.php">Hợp tác quốc tế</a></h5>
                       <div class="card" style="    flex-direction: column;">
                           <a class="#" href="#">
                               <img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201909_TIN/DSC04631.JPG" alt="" width="100% " height="200px">
                           </a>
                           <div class="card-body">
-                              <a href="" style="text-decoration: none;">Khoa Công nghệ Sinh học ĐH Nguyễn Tất Thành làm việc với ĐH Hiroshima</a>
+                              <a href="Hoptacquocte.php" style="text-decoration: none;">Khoa Công nghệ Sinh học ĐH Nguyễn Tất Thành làm việc với ĐH Hiroshima</a>
                               <br><br>
                               <p style="    font-family: 'Open Sans',sans-serif;" style="text-align: justify;">NTTU -  Sáng ngày 17/09/2019, khoa Công nghệ Sinh học Trường ĐH Nguyễn Tất Thành đã có buổi làm việc với ĐH Hiroshima (Nhật Bản)</p>
                           </div>
@@ -253,11 +253,11 @@
                   <div class="col-md-4">
                       <h5><a href="">Môi trường học tập</a></h5>
                       <div class="card" style="    flex-direction: column;">
-                          <a class="" href="/#">
+                          <a class="" href="Moitruonghoctap.php">
                             <img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201909_TIN/37635775082_b83f872e6e_o.jpg" alt="" width="100%"height="200px">
                         </a>
                           <div class="card-body">
-                              <a href="" class="" style="overflow: hidden; height: 65px;">Nhật ký thực tập nhận thức của sinh viên khoa Du lịch và Việt Nam học Trường ĐH Nguyễn Tất Thành</a>
+                              <a href="Moitruonghoctap.php" class="" style="overflow: hidden; height: 65px;">Nhật ký thực tập nhận thức của sinh viên khoa Du lịch và Việt Nam học Trường ĐH Nguyễn Tất Thành</a>
                               <br><br>
                               <p style="text-align: justify;">NTTU- Nhằm tạo cầu nối để sinh viên Khoa Du lịch và Việt Nam học Trường Đại học Nguyễn Tất Thành có cơ hội được tiếp cận thực tế, được trải nghiệm kiến thức chuyên môn liên quan đến ngành học qua đó giúp hình thành tình yêu nghề nghiệp đồng thời phát huy và tạo lập cho sinh viên một môi</p>
                           </div>
