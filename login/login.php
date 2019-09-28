@@ -19,23 +19,23 @@
 <body>
 	<div class="header">
 		<div class="logo">
-			<img src="http://elib.ntt.edu.vn/App_Themes/ntt/images/ntt-logo.png" alt="ĐHNTT">
+			<a href="..\index.php"><img src="http://elib.ntt.edu.vn/App_Themes/ntt/images/ntt-logo.png" alt="ĐHNTT"></a>
 		</div>
 	</div>
 	<div class="main">
-		<form action="" method="post">
+		<form method="post">
 			<div style="text-align: right;">
-				<br>Tên đăng nhập: <input type="text" placeholder="  Tên đăng nhập" name="user"><br><br>
+				<br><br>Tên đăng nhập: <input type="text" placeholder="  Tên đăng nhập" name="name"><br><br>
 				Mật khẩu: <input type="password" placeholder="  Mật khẩu" name="pass"><br><br>
 				<input type="submit" value="Đăng nhập" name="login"><br><br>
-				<a href="">Đăng ký?</a><a href="">Quên mật khẩu?</a>
-
+				<a href="">Đăng ký?</a><a href="">Quên mật khẩu?</a><br><br>
+				<?php include'checkLogin.php' ?> 
 			</div>
-			
+			 
 		</form>
 	</div>
 	<div class="footer">
-		Copyright © 2019 NTT-TTT Nguyễn Tất Thành - Khoa CNTT. Designed by NTT-TTT.
+		<p style="padding: 0px 30px;">Copyright © 2019 NTT-TTT Nguyễn Tất Thành - Khoa CNTT. Designed by NTT-TTT.</p>
 	</div>
 </body>
 </html>
