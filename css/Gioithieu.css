@@ -19,7 +19,6 @@ a {
 }
 
 #menu1 div {
-	width: 100%;
 	margin: auto;
 	text-align: center;
 }
@@ -169,10 +168,10 @@ div .show {
 	position: absolute;
 }
 
-div .show{
+/*div .show{
 	position: 0px !important;
 	margin: 0px !important;
-}
+}*/
 
 
 
@@ -208,6 +207,25 @@ div .show{
 	}
 }
 
+@media only screen and (max-width: 990px){
+	#menu1 {
+		position: relative;
+
+	}
+
+	.navbar.navbar-dark{
+		z-index: 9;
+		width: 100%;
+	}
+	
+	#menu1 .nav-search{
+		width: 90%;
+		position: absolute;
+		top: -2px;
+		left: 56px;
+		z-index: 10;
+	}
+}
 
 .head{
 	border-bottom: 10px solid #dad4c2;
@@ -277,3 +295,4 @@ article {
 		margin: 0px auto;
 	}
 }
+

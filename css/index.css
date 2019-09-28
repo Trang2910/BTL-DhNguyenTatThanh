@@ -11,6 +11,7 @@ body {
 	justify-content: space-between;
 	background-color: #024282;
 	align-items: center;
+	
 }
 
 a {
@@ -19,7 +20,6 @@ a {
 }
 
 #menu1 div {
-	width: 100%;
 	margin: auto;
 	text-align: center;
 }
@@ -230,16 +230,39 @@ div .show {
 	top: -90px; 
 	position: absolute;
 }
-
+/*
 div .show{
 	position: 0px !important;
 	margin: 0px !important;
+}*/
+
+@media only screen and (max-width: 990px){
+	#menu1 {
+		position: relative;
+
+	}
+
+	.navbar.navbar-dark{
+		z-index: 9;
+		width: 100%;
+	}
+	
+	#menu1 .nav-search{
+		width: 90%;
+		position: absolute;
+		top: -2px;
+		left: 56px;
+		z-index: 10;
+	}
+
+	/*#menu1 div.show{
+		background-color: rgba(2,66,130,0.95) !important;
+	}*/
 }
 
 
-
-
 @media only screen and (max-width: 1200px){
+
 
 	.menu-main {
 		display: inline-block;
@@ -274,4 +297,5 @@ div .show{
 		padding-left: 0px;
 	}
 
+	
 }

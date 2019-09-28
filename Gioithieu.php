@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Đại học Nguyễn Tất Thành</title>
 	<link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
-	<link rel="stylesheet" href="css/gioithieu.css">
+	<link rel="stylesheet" href="css/Gioithieu.css">
 	<script src="js/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>

@@ -19,7 +19,7 @@ a {
 }
 
 #menu1 div {
-	width: 100%;
+	/*width: 100%;*/
 	margin: auto;
 	text-align: center;
 }
@@ -274,5 +274,23 @@ article {
 	}
 }
 
+@media only screen and (max-width: 990px){
+	#menu1 {
+		position: relative;
 
+	}
+
+	.navbar.navbar-dark{
+		z-index: 9;
+		width: 100%;
+	}
+	
+	#menu1 .nav-search{
+		width: 90%;
+		position: absolute;
+		top: -2px;
+		left: 56px;
+		z-index: 10;
+	}
+}
 

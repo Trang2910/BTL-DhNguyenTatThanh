@@ -24,16 +24,26 @@
                                 </ul>
                               </div>
                 </nav>
-                <form class="navbar-form navbar-left" role="search">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Tìm kiếm thông tin">
-                        <span class="input-group-btn">
-                            <i class="fas fa-search" style="color: white; padding:15px;"></i>
-                        </span>
-                    </div>
-                </form> 
-                <img src="image/E.jpg" alt="" style="width:20px; height:15px; margin-right: 200px">
+                <div class="nav-search">
+                    <form class="navbar-form navbar-left" role="search" style="display: flex;align-items: center;" method="post">
+                        <div class="input-group" style="align-items: center;background-color: #012b64">
+                            <input type="text" class="form-control" placeholder="Tìm kiếm thông tin" style="background-color: #012b64;border: none;">
+                            <span class="input-group-btn">
+                                <i class="fas fa-search" style="color: white; padding:14px;"></i>
+                            </span>
+                        </div>
+                        <img src="image/E.jpg" alt="" style="width:20px; height:15px;">
+                        <input type="submit" name="login" value="Đăng nhập" style="border: none; border-radius: 10px; height: 30px;background-color: #FFFAF0; margin-left: 5px;">
+                        <?php 
+                            if(isset($_POST['login'])){
+                                header('location:login/login.php');
+                            } 
+                        ?>
+                    </form> 
                 </div>
+                
+                
+            </div>
             </div>
 
             <div id="menu2" class="container-fluid">
