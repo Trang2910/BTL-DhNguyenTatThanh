@@ -164,15 +164,15 @@
                   <div class="container-fluid">
                           <div class="row" >
                             <div class="col-md-4" id="ha" style="background-image: url(http://ntt.edu.vn/web/upload/images/hp_nguoithay-01.svg); ">
-                              <a href=""><h4>Chuẩn 3 sao QS-Stars <br style="text-align: center;">(Anh Quốc)</br> </h4></a>
+                              <a href="Chuan-3-sao-qs-stars-anh-quoc.php"><h4>Chuẩn 3 sao QS-Stars <br style="text-align: center;">(Anh Quốc)</br> </h4></a>
                               <p id="ct">Xếp hạng quốc tế 3 sao theo chuẩn QS-Stars, một trong các chuẩn xếp hạng hàng đầu dành cho các trường đại học trên thế giới.</p>
                             </div>
                             <div class="col-md-4" id="ha" style="    background-image: url(http://ntt.edu.vn/web/upload/images/hp_xhoi-01.svg);">
-                                <a href=""><h4>Đạt chuẩn chất lượng quốc gia</h4></a>
+                                <a href="Dat-chuan-chat-luong-quoc-gia.php"><h4>Đạt chuẩn chất lượng quốc gia</h4></a>
                                 <p id="ct">Là trường đại học ngoài công lập đầu tiên tại TP.HCM được kiểm định đạt chất lượng theo bộ tiêu chí quốc gia do Bộ GD&amp;ĐT ban hành.</p>
                             </div>
                             <div class="col-md-4" id="ha" style="background-image:  url(http://ntt.edu.vn/web/upload/images/hp_nhatruong-01.svg);">
-                                <a href=""><h4>Đại học hạnh phúc</h4></a>
+                                <a href="Dai-hoc-hanh-phuc.php"><h4>Đại học hạnh phúc</h4></a>
                                 <p id="ct">Đại học Nguyễn Tất Thành là ngôi trường tri thức và hạnh phúc dành cho sinh viên với 5 giá trị nổi bật</p>
                             </div>
                           </div>
@@ -184,11 +184,11 @@
                   <div class="container-fluid">
                           <div class="row" >
                               <div class="col-md-4" id="ha"style="    background-image: url(http://ntt.edu.vn/web/upload/images/hp_xhoi-01.svg);">
-                                <a href=""><h4>Đạt chuẩn chất lượng quốc gia</h4></a>
+                                <a href="Dat-chuan-chat-luong-quoc-gia.php"><h4>Đạt chuẩn chất lượng quốc gia</h4></a>
                                 <p id="ct">Là trường đại học ngoài công lập đầu tiên tại TP.HCM được kiểm định đạt chất lượng theo bộ tiêu chí quốc gia do Bộ GD&amp;ĐT ban hành.</p>
                             </div>
                             <div class="col-md-4" id="ha"style="background-image:  url(http://ntt.edu.vn/web/upload/images/hp_nhatruong-01.svg);">
-                              <a href=""><h4>Đại học hạnh phúc</h4></a>
+                              <a href="Dai-hoc-hanh-phuc.php"><h4>Đại học hạnh phúc</h4></a>
                               <p id="ct">Đại học Nguyễn Tất Thành là ngôi trường tri thức và hạnh phúc dành cho sinh viên với 5 giá trị nổi bật</p>
                           </div>
                           <div class="col-md-4" id="ha" style="background-image: url(http://ntt.edu.vn/web/upload/images/hp_sinhvien-01.svg);">
@@ -212,7 +212,7 @@
                                 <p id="ct">Định vị là trường ứng dụng và thực hành hướng tới mục tiêu đáp ứng nhu cầu giáo dục đại học đại chúng, trí thức hóa nguồn nhân lực, tạo môi trường học tập tích cực và trải nghiệm thực tiễn cho sinh viên.</p>
                             </div>
                             <div class="col-md-4" id="ha" style="background-image:  url(http://ntt.edu.vn/web/upload/images/hp_nhatruong-01.svg);">
-                              <a href=""><h4>Đại học hạnh phúc</h4></a>
+                              <a href="Dai-hoc-hanh-phuc.php"><h4>Đại học hạnh phúc</h4></a>
                               <p id="ct">Đại học Nguyễn Tất Thành là ngôi trường tri thức và hạnh phúc dành cho sinh viên với 5 giá trị nổi bật</p>
                           </div>
                           </div>

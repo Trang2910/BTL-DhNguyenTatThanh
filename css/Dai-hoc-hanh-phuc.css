@@ -1,0 +1,16 @@
+#content1{
+    text-align: content;
+    font-size:15px;
+}
+#content2{
+    text-align: justify;
+    font-size:12px;
+    color:#808080
+}
+#content3{
+    text-align: justify;
+    font-size:15px;
+}
+#img{
+    text-align: center;
+}
