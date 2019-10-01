@@ -1,0 +1,123 @@
+body {
+	margin: 0px auto;
+	font-family: 'verdana',sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+
+}
+
+.box_notice {
+	background-color: #024282;
+	text-align: right;
+}
+
+.box_notice span{
+	border-bottom-left-radius: 75px;
+    background-color: white;
+    padding: 5px 30px;
+}
+
+.logo img{
+	height: 100px;
+}
+
+.logo {
+	height: 120px;
+	background-color: #024282;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 15px;
+}
+
+h3{
+	font-family: 'tahoma';
+	color: white;
+	border-bottom: double;
+	border-color: #CCFFFF; 
+	padding-bottom: 5px;
+}
+
+input {
+	border: none;
+	border-radius: 10px;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-around;
+	background-color: #E6E6FA;
+	text-align: center;
+}
+
+.menu a{
+	color: #363636;
+	padding: 5px 0px;
+	font-size: 17px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #9FB6CD;
+}
+
+.main{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 20px;
+	
+}
+
+.side{
+	width: 25%;
+	border: 1px solid rgba(0,0,0,0.05);
+}
+
+.side h5, .side a{
+	color: #363636;
+	display: block;
+	line-height: 3;
+	border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.side h5{
+	background-color: #E6E6FA;
+	margin-bottom: 0px;
+}
+
+.active{
+	background-color: #CAE5E8;
+}
+
+.content{
+	width: 75%;
+	border: 1px solid rgba(0,0,0,0.05);
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	background-color: rgba(0,0,0,0.05);
+}
+
+/*Tin tức, trang chủ*/
+
+.news{
+	display: flex;
+	justify-content: right;
+}
+
+.news img{
+	height: 100px;
+	width: 170px;
+}
+
+.news a{
+	font-size: 15px;
+	color: black;
+}

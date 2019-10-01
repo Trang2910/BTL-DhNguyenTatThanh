@@ -1,4 +1,4 @@
-<?php include'connect.php';?>
+<?php include'connect.php' ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +14,7 @@
     <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	<title>Login</title>
+	<title>Register</title>
 </head>
 <body>
 	<div class="header">
@@ -24,13 +24,15 @@
 	</div>
 	<div class="main">
 		<form method="post">
+
 			<div style="text-align: right;">
-				<h4>Đăng nhập tài khoản</h4>
+				<h4>Đăng ký tài khoản</h4>
 				<br><br>Tên người dùng: <input type="text" placeholder="  Nhập tên người dùng" name="name"><br><br>
-				Mật khẩu: <input type="password" placeholder="  Nhập mật khẩu" name="pass"><br><br>
-				<input type="submit" value="Đăng nhập" name="login"><br><br>
-				<a href="register.php">Đăng ký?</a><a href="">Quên mật khẩu?</a><br><br>
-				<?php include'checkLogin.php' ?> 
+				Mật khẩu: <input type="password" placeholder="  Nhập mật khẩu" name="pass1"><br><br>
+				Xác nhận mật khẩu: <input type="password" placeholder="  Xác nhận mật khẩu" name="pass2"><br><br>
+				<input type="submit" value="Đăng ký" name="register"><br><br>
+				<a href="login.php">Trở lại trang đăng nhập?</a><br><br>
+				<?php include'checkRegister.php' ?> 
 			</div>
 			 
 		</form>

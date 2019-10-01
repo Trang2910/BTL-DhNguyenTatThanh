@@ -44,6 +44,11 @@ body {
 	border-radius: 10px;
 }
 
+h4 {
+	text-align: center; 
+	padding-top: 10px;
+}
+
 
 a{
 	color: white;

@@ -11,6 +11,7 @@ body {
 
 .nav{
     background-color: #0080C0;
+    width: 90%;
 }
 
 .nav>li{
@@ -42,6 +43,10 @@ body {
     background-color: #374db1;
     padding: 5px 20px;
 }
+
+.sub-menu {
+  z-index: 10;
+}
  
 .nav li:hover>.sub-menu{
     display: block;
@@ -54,10 +59,8 @@ body {
 
 
 nav{
-    background-color: rgba(44, 108, 173, 0.82);
-    width: 100%;
-    float: none;
-     padding-left: 0px;
+     background-color: rgba(44, 108, 173, 0.82);
+     width: 100%;
      border-width: 1px;
      border-style: solid;
      border-color: rgb(175, 169, 169);
