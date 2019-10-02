@@ -68,7 +68,7 @@
                             
                             <button type="button" class="btn btn-responsive" data-toggle="dropdown" style=""><i class="fa fa-bars" style="font-size: 30px;"></i></button>
 
-                            <div class="dropdown-menu" style="width: 100%;z-index: 1;">
+                            <div class="dropdown-menu" style="width: 100%;z-index: 1;margin-top: 0px;">
                                 <div class="container" style="padding: 0px; margin: 0px;">
                                     <div class="row menu-main" style="padding-top: 50px;">
                                         <div class="col-3">

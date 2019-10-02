@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="css/Login.css">
+    <link rel="stylesheet" href="css/login.css">
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -28,6 +28,7 @@
 			<div style="text-align: right;">
 				<h4>Đăng ký tài khoản</h4>
 				<br><br>Tên người dùng: <input type="text" placeholder="  Nhập tên người dùng" name="name"><br><br>
+				Email: <input type="text" placeholder="  Nhập email người dùng" name="email"><br><br>
 				Mật khẩu: <input type="password" placeholder="  Nhập mật khẩu" name="pass1"><br><br>
 				Xác nhận mật khẩu: <input type="password" placeholder="  Xác nhận mật khẩu" name="pass2"><br><br>
 				<input type="submit" value="Đăng ký" name="register"><br><br>

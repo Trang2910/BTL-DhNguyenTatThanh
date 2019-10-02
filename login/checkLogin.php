@@ -21,24 +21,23 @@ if(isset($_POST['login']))
 		$_SESSION['Name'] = $name;
         $_SESSION['Pass'] = $pass;
 
-		$row_u = mysqli_query($conn,"SELECT * from acc_user where userName = '{$name}' and userPass = '{$pass}'");
-		$row_ad = mysqli_query($conn,"SELECT * from acc_admin where adName = '{$name}' and adPass = '{$pass}'");
+		$sql = mysqli_query($conn,"SELECT * from account where userName = '{$name}'");
+		$row=mysqli_fetch_assoc($sql);
 
-		$count_u = mysqli_num_rows($row_u);
-		$count_ad = mysqli_num_rows($row_ad);
+		if(password_verify($pass, $row['passWord'])){
+			if($row['userLevel']==0){
+				header('location:viewsUser.php');
+			}
+			else if($row['userLevel']==1){
+				header('location:viewsAdmin.php');
+			}
+		}
 
-		if($count_u==1){
-			header('location:viewsUser.php');
-		}
-		elseif ($count_ad==1) {
-			header('location:viewsAdmin.php');
-		}
-		else {
+		else{
 			echo "<div class='alert alert-danger' role='alert' style='text-align: center;padding:2px;'>Tên người dùng và mật khẩu chưa chính xác!";
 			echo "<button class='close' data-dismiss='alert' aria-label='Close'>";
 			echo "<span aria-hidden='true'>&times;</span></button></div>";
 		}
-		
 	}
 }
 ?>
