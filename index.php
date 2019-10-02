@@ -25,6 +25,7 @@
 
                             <div class="carousel-inner">
                               <div class="carousel-item">
+                                <a href="carousel-1"></a>
                                 <img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201908_TIN/Web_Slider.jpg" class="d-block w-100" alt="Xet tuyen hoc ba">
                                 <div class="carousel-caption d-none d-md-block">
                                   <h3 >ĐH Nguyễn Tất Thành nhận hồ sơ xét tuyển học bạ đợt cuối đến ngày 03/09/2019</h3>
@@ -46,7 +47,9 @@
                                 </div>
                               </div>
                               <div class="carousel-item  active">
-                                <img src="http://ntt.edu.vn/web/upload/images/slider/Chinh-sach-hoc-bong-NTTU_Web-Slider.jpg" class="d-block w-100" alt="chinh sach hoc bong">
+                                  <a href="carousel4.php">
+                                  <img src="http://ntt.edu.vn/web/upload/images/slider/Chinh-sach-hoc-bong-NTTU_Web-Slider.jpg" class="d-block w-100" alt="chinh sach hoc bong">
+                                  </a>
                                 <div class="carousel-caption d-none d-md-block">
                                   <h3>Chính sách học bổng Trường Đại học Nguyễn Tất Thành năm 2019</h3>
                                   <p></p>
@@ -82,9 +85,9 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="card" >
-                                    <a href="News1.html"><img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201908_TIN/36996677083_a06a2a29fc_o.jpg" class="card-img-top" alt="..."></a>
+                                    <a href="News1.php"><img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201908_TIN/36996677083_a06a2a29fc_o.jpg" class="card-img-top" alt="..."></a>
                                     <div class="card-body">
-                                        <a href="News1.html">Những lý do nên chọn học thạc sĩ tại Trường ĐH Nguyễn Tất Thành</a>
+                                        <a href="News1.php">Những lý do nên chọn học thạc sĩ tại Trường ĐH Nguyễn Tất Thành</a>
                                         <br><br>
                                         <p style="text-align: justify;">NTTU - Hiện nay, có rất nhiều trường ĐH được đào tạo thạc sĩ, tiến sĩ… nhu cầu người học cũng nhiều nhưng để tìm được một môi trường học tập có chất lượng đào tạo cao,  đáp ứng được nhu cầu của các học viên </p>
                                     </div>
@@ -163,17 +166,17 @@
                       <h2 style="    color: #aa914d;    text-align: center;;   font-weight: bolder; padding-top: 20px">Tại sao chọn đại học Nguyễn Tất Thành?</h2>
                   <div class="container-fluid">
                           <div class="row" >
-                            <div class="col-md-4" id="ha" style="background-image: url(http://ntt.edu.vn/web/upload/images/hp_nguoithay-01.svg); ">
+                            <div class="col-md-4" id="img1" style="background-image: url(http://ntt.edu.vn/web/upload/images/hp_nguoithay-01.svg); ">
                               <a href="Chuan-3-sao-qs-stars-anh-quoc.php"><h4>Chuẩn 3 sao QS-Stars <br style="text-align: center;">(Anh Quốc)</br> </h4></a>
-                              <p id="ct">Xếp hạng quốc tế 3 sao theo chuẩn QS-Stars, một trong các chuẩn xếp hạng hàng đầu dành cho các trường đại học trên thế giới.</p>
+                              <p id="content">Xếp hạng quốc tế 3 sao theo chuẩn QS-Stars, một trong các chuẩn xếp hạng hàng đầu dành cho các trường đại học trên thế giới.</p>
                             </div>
-                            <div class="col-md-4" id="ha" style="    background-image: url(http://ntt.edu.vn/web/upload/images/hp_xhoi-01.svg);">
+                            <div class="col-md-4" id="img1" style="background-image: url(http://ntt.edu.vn/web/upload/images/hp_xhoi-01.svg);">
                                 <a href="Dat-chuan-chat-luong-quoc-gia.php"><h4>Đạt chuẩn chất lượng quốc gia</h4></a>
-                                <p id="ct">Là trường đại học ngoài công lập đầu tiên tại TP.HCM được kiểm định đạt chất lượng theo bộ tiêu chí quốc gia do Bộ GD&amp;ĐT ban hành.</p>
+                                <p id="content">Là trường đại học ngoài công lập đầu tiên tại TP.HCM được kiểm định đạt chất lượng theo bộ tiêu chí quốc gia do Bộ GD&amp;ĐT ban hành.</p>
                             </div>
-                            <div class="col-md-4" id="ha" style="background-image:  url(http://ntt.edu.vn/web/upload/images/hp_nhatruong-01.svg);">
+                            <div class="col-md-4" id="img1" style="background-image:  url(http://ntt.edu.vn/web/upload/images/hp_nhatruong-01.svg);">
                                 <a href="Dai-hoc-hanh-phuc.php"><h4>Đại học hạnh phúc</h4></a>
-                                <p id="ct">Đại học Nguyễn Tất Thành là ngôi trường tri thức và hạnh phúc dành cho sinh viên với 5 giá trị nổi bật</p>
+                                <p id="content">Đại học Nguyễn Tất Thành là ngôi trường tri thức và hạnh phúc dành cho sinh viên với 5 giá trị nổi bật</p>
                             </div>
                           </div>
                         </div>
@@ -183,17 +186,17 @@
                       <h2 style="    color: #aa914d;    text-align: center;;   font-weight: bolder; padding-top: 20px">Tại sao chọn đại học Nguyễn Tất Thành?</h2>
                   <div class="container-fluid">
                           <div class="row" >
-                              <div class="col-md-4" id="ha"style="    background-image: url(http://ntt.edu.vn/web/upload/images/hp_xhoi-01.svg);">
+                              <div class="col-md-4" id="img1"style="    background-image: url(http://ntt.edu.vn/web/upload/images/hp_xhoi-01.svg);">
                                 <a href="Dat-chuan-chat-luong-quoc-gia.php"><h4>Đạt chuẩn chất lượng quốc gia</h4></a>
-                                <p id="ct">Là trường đại học ngoài công lập đầu tiên tại TP.HCM được kiểm định đạt chất lượng theo bộ tiêu chí quốc gia do Bộ GD&amp;ĐT ban hành.</p>
+                                <p id="content">Là trường đại học ngoài công lập đầu tiên tại TP.HCM được kiểm định đạt chất lượng theo bộ tiêu chí quốc gia do Bộ GD&amp;ĐT ban hành.</p>
                             </div>
-                            <div class="col-md-4" id="ha"style="background-image:  url(http://ntt.edu.vn/web/upload/images/hp_nhatruong-01.svg);">
+                            <div class="col-md-4" id="img1"style="background-image:  url(http://ntt.edu.vn/web/upload/images/hp_nhatruong-01.svg);">
                               <a href="Dai-hoc-hanh-phuc.php"><h4>Đại học hạnh phúc</h4></a>
-                              <p id="ct">Đại học Nguyễn Tất Thành là ngôi trường tri thức và hạnh phúc dành cho sinh viên với 5 giá trị nổi bật</p>
+                              <p id="content">Đại học Nguyễn Tất Thành là ngôi trường tri thức và hạnh phúc dành cho sinh viên với 5 giá trị nổi bật</p>
                           </div>
-                          <div class="col-md-4" id="ha" style="background-image: url(http://ntt.edu.vn/web/upload/images/hp_sinhvien-01.svg);">
+                          <div class="col-md-4" id="img1" style="background-image: url(http://ntt.edu.vn/web/upload/images/hp_sinhvien-01.svg);">
                                 <a href=""><h4>Top 10 thương hiệu nổi tiếng</h4></a>
-                                <p id="ct">Trong những năm qua, Trường ĐH Nguyễn Tất Thành đã không ngừng đổi mới công tác quản trị đại học, nâng cao chất lượng đào tạo, nghiên cứu khoa học, công tác hợp tác quốc tế, công tác sinh viên.</p>
+                                <p id="content">Trong những năm qua, Trường ĐH Nguyễn Tất Thành đã không ngừng đổi mới công tác quản trị đại học, nâng cao chất lượng đào tạo, nghiên cứu khoa học, công tác hợp tác quốc tế, công tác sinh viên.</p>
                             </div>
                           </div>
                         </div>
@@ -203,17 +206,17 @@
                       <h2 style="    color: #aa914d;    text-align: center;;   font-weight: bolder; padding-top: 20px">Tại sao chọn đại học Nguyễn Tất Thành?</h2>
                   <div class="container-fluid">
                           <div class="row" >
-                              <div class="col-md-4" id="ha"style="background-image: url(http://ntt.edu.vn/web/upload/images/hp_sinhvien-01.svg);">
+                              <div class="col-md-4" id="img1"style="background-image: url(http://ntt.edu.vn/web/upload/images/hp_sinhvien-01.svg);">
                                 <a href=""><h4>Top 10 thương hiệu nổi tiếng</h4></a>
-                                <p id="ct"> Trong những năm qua, Trường ĐH Nguyễn Tất Thành đã không ngừng đổi mới công tác quản trị đại học, nâng cao chất lượng đào tạo, nghiên cứu khoa học, công tác hợp tác quốc tế, công tác sinh viên.</p>
+                                <p id="content"> Trong những năm qua, Trường ĐH Nguyễn Tất Thành đã không ngừng đổi mới công tác quản trị đại học, nâng cao chất lượng đào tạo, nghiên cứu khoa học, công tác hợp tác quốc tế, công tác sinh viên.</p>
                             </div>
-                            <div class="col-md-4" id="ha" style="background-image: url(http://ntt.edu.vn/web/upload/images/hp_nguoithay-01.svg);">
+                            <div class="col-md-4" id="img1" style="background-image: url(http://ntt.edu.vn/web/upload/images/hp_nguoithay-01.svg);">
                                 <a href=""><h4>95% sinh viên tốt nghiệp có việc làm</h4></a>
-                                <p id="ct">Định vị là trường ứng dụng và thực hành hướng tới mục tiêu đáp ứng nhu cầu giáo dục đại học đại chúng, trí thức hóa nguồn nhân lực, tạo môi trường học tập tích cực và trải nghiệm thực tiễn cho sinh viên.</p>
+                                <p id="content">Định vị là trường ứng dụng và thực hành hướng tới mục tiêu đáp ứng nhu cầu giáo dục đại học đại chúng, trí thức hóa nguồn nhân lực, tạo môi trường học tập tích cực và trải nghiệm thực tiễn cho sinh viên.</p>
                             </div>
-                            <div class="col-md-4" id="ha" style="background-image:  url(http://ntt.edu.vn/web/upload/images/hp_nhatruong-01.svg);">
+                            <div class="col-md-4" id="img1" style="background-image:  url(http://ntt.edu.vn/web/upload/images/hp_nhatruong-01.svg);">
                               <a href="Dai-hoc-hanh-phuc.php"><h4>Đại học hạnh phúc</h4></a>
-                              <p id="ct">Đại học Nguyễn Tất Thành là ngôi trường tri thức và hạnh phúc dành cho sinh viên với 5 giá trị nổi bật</p>
+                              <p id="content">Đại học Nguyễn Tất Thành là ngôi trường tri thức và hạnh phúc dành cho sinh viên với 5 giá trị nổi bật</p>
                           </div>
                           </div>
                         </div>

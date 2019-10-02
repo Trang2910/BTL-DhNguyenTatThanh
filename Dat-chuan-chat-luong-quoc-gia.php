@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/Dat-chuan-chat-luong-quoc-gia.css">
 
     <script src="js/DHNTT.js"></script>
