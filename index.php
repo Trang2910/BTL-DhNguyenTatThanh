@@ -95,7 +95,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="card" >
-                                    <a href="News2.php"><img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201909_TIN/13(1).JPG" class="card-img-top" alt="..." style="width:100%; height:204px"></a> 
+                                    <a href="News2.php"><img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201909_TIN/13(1).JPG" class="card-img-top" alt="..." ></a> 
                                     <div class="card-body">
                                         <a href="News2.php">ĐH Nguyễn Tất Thành phối hợp tổ chức Workshop “Youtube đã làm thay đổi cuộc </a>
                                         <br><br>
@@ -105,7 +105,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="card" >
-                                    <a href="News3.php"><img src="http://ntt.edu.vn/web/upload/images/Khoa-nganh/ketoan-taichinh-thumb.png" class="card-img-top" alt="..." style="height: 204px;"></a> 
+                                    <a href="News3.php"><img src="http://ntt.edu.vn/web/upload/images/Khoa-nganh/ketoan-taichinh-thumb.png" class="card-img-top" alt="..."></a> 
                                     <div class="card-body">
                                         <a href="News3.php">ĐH Nguyễn Tất Thành tuyển sinh liên thông các ngành đào tạo</a>
                                         <br><br>
@@ -161,12 +161,12 @@
               </ul>
               
               <!-- The slideshow -->
-              <div class="carousel-inner" style="background-color: rgb(9, 9, 121);">
-                  <div class="carousel-item active">
+              <div class="carousel-inner" style="background-color: rgb(9, 9, 121);" >
+                  <div class="carousel-item active" >
                       <h2 style="    color: #aa914d;    text-align: center;;   font-weight: bolder; padding-top: 20px">Tại sao chọn đại học Nguyễn Tất Thành?</h2>
                   <div class="container-fluid">
                           <div class="row" >
-                            <div class="col-md-4" id="img1" style="background-image: url(http://ntt.edu.vn/web/upload/images/hp_nguoithay-01.svg); ">
+                            <div class="col-md-4" id="img1" style="background-image: url(http://ntt.edu.vn/web/upload/images/hp_nguoithay-01.svg)" >
                               <a href="Chuan-3-sao-qs-stars-anh-quoc.php"><h4>Chuẩn 3 sao QS-Stars <br style="text-align: center;">(Anh Quốc)</br> </h4></a>
                               <p id="content">Xếp hạng quốc tế 3 sao theo chuẩn QS-Stars, một trong các chuẩn xếp hạng hàng đầu dành cho các trường đại học trên thế giới.</p>
                             </div>
