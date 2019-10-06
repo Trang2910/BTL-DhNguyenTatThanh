@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="css/Views.css">
+    <link rel="stylesheet" href="css/views.css">
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -19,8 +19,8 @@
 
 		<div class="menu">
 			<a href="viewsUser.php" class="active">Trang chủ</a>
-			<a href="viewsU_sv.php">Sinh viên</a>
-			<a href="">Tra cứu điểm</a>
+			<a href="viewsU_sv.php">Tra cứu điểm</a>
+			<a href="">Đăng ký học</a>
 			<a href="">Tra cứu học phí</a>
 		</div>
 	</div>
@@ -52,7 +52,6 @@
 				<a href="">ĐH Nguyễn Tất Thành mách bạn "bí quyết" ôn luyện kỳ thi THPTQG 2019</a>
 			</div>
 			<br>
-			<!-- <iframe src="register.php" frameborder="1" width="100%" height="1000px"></iframe> -->
 		</div>
 	</div>
 

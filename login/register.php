@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/Login.css">
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -25,14 +25,24 @@
 	<div class="main">
 		<form method="post">
 
-			<div style="text-align: right;">
+			<div style="text-align: center;width: 60%;">
 				<h4>Đăng ký tài khoản</h4>
-				<br><br>Tên người dùng: <input type="text" placeholder="  Nhập tên người dùng" name="name"><br><br>
-				Email: <input type="text" placeholder="  Nhập email người dùng" name="email"><br><br>
-				Mật khẩu: <input type="password" placeholder="  Nhập mật khẩu" name="pass1"><br><br>
-				Xác nhận mật khẩu: <input type="password" placeholder="  Xác nhận mật khẩu" name="pass2"><br><br>
+				<br><br>
+				<i class="fa fa-user icon"></i> 
+				<input type="text" placeholder="    Nhập tên người dùng" name="name" class="input">
+				<br><br>
+				<i class="fas fa-envelope"></i> 
+				<input type="text" placeholder="    Nhập email người dùng" name="email" class="input">
+				<br><br>
+				<i class="fa fa-key icon"></i> 
+				<input type="password" placeholder="    Nhập mật khẩu" name="pass1" class="input">
+				<br><br>
+				<i class="fa fa-key icon"></i> 
+				<input type="password" placeholder="    Xác nhận mật khẩu" name="pass2" class="input"> 
+				<br><br>
 				<input type="submit" value="Đăng ký" name="register"><br><br>
-				<a href="login.php">Trở lại trang đăng nhập?</a><br><br>
+				<a href="login.php">Trở lại trang đăng nhập?</a>
+				<br><br>
 				<?php include'checkRegister.php' ?> 
 			</div>
 			 

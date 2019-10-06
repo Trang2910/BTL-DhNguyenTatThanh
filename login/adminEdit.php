@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/views.css">
+    <link rel="stylesheet" href="css/Sv.css">
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -15,11 +16,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<title>Trang chủ</title>
 </head>
-<?php include'top.php'; ?>
+<?php include'top.php' ?>
 
 		<div class="menu">
-			<a href="viewsAdmin.php" class="active">Trang chủ</a>
-			<a href="viewsA_sv.php">Tra cứu điểm</a>
+			<a href="viewsUser.php">Trang chủ</a>
+			<a href="viewsU_sv.php" class="active">Tra cứu điểm</a>
 			<a href="">Đăng ký học</a>
 			<a href="">Tra cứu học phí</a>
 		</div>
@@ -32,27 +33,28 @@
 			<a href="">Cài đặt</a>
 		</div>
 		<div class="content">
-			<div class="news">
-				<img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201909_TIN/DSC06510.jpg" alt="">
-				<a href="">Lễ bảo vệ Khóa luận tốt nghiệp và tuyển dụng trực tiếp của sinh viên khoa Luật ĐH Nguyễn Tất Thành</a>
-			</div>
-			<hr>
-			<div class="news">
-				<img src="http://ulis.vnu.edu.vn/files/uploads/2016/11/dhsd.jpg" alt="">
-				<a href="">Khóa 17 đã sẵn sàng tốt nghiệp</a>
-			</div>
-			<hr>
-			<div class="news">
-				<img src="http://ntt.edu.vn/web/upload/images/banner/HTVL4.jpg" alt="">
-				<a href="">Hội thảo về cơ hội việc làm thu nhập cao và tọa đàm với các đối tác CHLB Đức</a>
-			</div>
-			<hr>
-			<div class="news">
-				<img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201906_tin/6756_111_wvfj_zjwk.jpg" alt="">
-				<a href="">ĐH Nguyễn Tất Thành mách bạn "bí quyết" ôn luyện kỳ thi THPTQG 2019</a>
-			</div>
-			<br>
+			<?php 
+				if(isset($_GET['btnEdit'])){
+					
+				}
+				elseif (isset($_GET['btnDel'])) {
+					
+				}
+			 ?>
 		</div>
 	</div>
 
 <?php include'bottom.php' ?>
+
+<?php 
+	function Edit($x){
+		$masv=$_GET['masv'];
+		$hoten=$_GET['hoten'];
+		$ngaysinh=$_GET['ngaysinh'];
+		$sql = "SELECT * from list_sv where masv=$masv";
+		$result = mysqli_query($conn,$sql);
+			echo "<form method='post'>";
+			echo "<table border = '1' method='get'><tr><th>Mã sinh viên</th><th>Họ Tên</th><th>Ngày Sinh</th></tr>";
+			echo "<tr><td><input disabled type='text' value=".$Masv." name='Ma'></td><td><input type='text' value=".$Hoten." name='Ho'></td><td><input type='date' value=".$Ngaysinh." name='NS'></td></tr>";
+	}
+ ?>

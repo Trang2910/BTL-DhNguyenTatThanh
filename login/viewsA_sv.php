@@ -19,8 +19,8 @@
 <?php include'top.php' ?>
 
 		<div class="menu">
-			<a href="viewsUser.php">Trang chủ</a>
-			<a href="viewsU_sv.php" class="active">Tra cứu điểm</a>
+			<a href="viewsAdmin.php">Trang chủ</a>
+			<a href="viewsA_sv.php" class="active">Tra cứu điểm</a>
 			<a href="">Đăng ký học</a>
 			<a href="">Tra cứu học phí</a>
 		</div>
@@ -106,7 +106,14 @@
 				<iframe src="details.php" name="detail" width="100%" height="400" style="border:none; ">
 					
 				</iframe>
-				
+				<?php 
+					if(isset($_GET['btnEdit'])){
+						header('location:adminEdit.php');
+					}
+					elseif (isset($_GET['btnDel'])) {
+						header('location:adminEdit.php');
+					}
+				 ?>
 			</form>
 		</div>
 	</div>

@@ -121,3 +121,14 @@ a:hover{
 	font-size: 15px;
 	color: black;
 }
+
+.result table{
+	line-height: 3;
+	width: 100%;
+}
+
+button{
+	border: none;
+	background-color: white;
+	-webkit-appearance: none;
+}
