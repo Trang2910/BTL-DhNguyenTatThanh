@@ -1,3 +1,8 @@
+<?php
+        $conn = mysqli_connect('localhost','root','','web') or die('Kết nối thất bại!'.mysqli_connect_error());
+        mysqli_query($conn, 'SET NAMES UTF8');
+
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -71,15 +76,22 @@
                             </article>
                         </div>
                         <hr>
+                        <?php
+                            $sql = mysqli_query($conn,"SELECT * FROM posts order by id DESC limit 5") or die(mysqli_error($conn));
+                            while($row = mysqli_fetch_assoc($sql)) :
+                         ?>
                         <div class="main">
-                            <img src="http://ntt.edu.vn/web/upload/images/Dao_tao/academics_thumb.png" alt="">
+                            <?php echo "<img src=".$row['image'].">"; ?>
                             <div>
-                                <h5><a href="">Các bậc đào tạo</a></h5>
-                                <p>NTTU - ĐH Nguyễn Tất Thành là trường đào tạo đa ngành, đa bậc học từ trung cấp, cao đẳng, đại học cho tới sau đại học. Với mục tiêu hướng đến trường đại học ứng dụng thực hành, Nhà trường đã đẩy mạnh đầu tư cơ sở vật chất, nâng cao chất lượng đội ngũ giảng viên và chương trình đào tạo.</p>
+                                <h5><a href=""><?php echo $row['title']; ?></a></h5>
+                                <p><?php echo $row['content']; ?></p>
+                                <br>
+                                <small><?php echo $row['author']; ?> - <?php echo $row['dateEdit']; ?></small>
                             </div>
-                        </div>
+                        </div> 
                         <hr>
-                        <div class="main">
+                        <?php endwhile; ?>
+                        <!-- <div class="main">
                             <img src="http://ntt.edu.vn/web/upload/images/Tuyen_sinh/Admission_Procedure.jpg" alt="">
                             <div>
                                 <h5><a href="">Thông tin tuyển sinh</a></h5>
@@ -109,7 +121,7 @@
                                 <h5><a href="">Xét tuyển trực tuyến</a></h5>
                                 <p>NTTU - Tránh tình trạng thí sinh chờ đợi, chen chúc, cũng như vượt đường xa đến tận trường để nộp hồ sơ, nhiều năm qua trường ĐH Nguyễn Tất Thành đã cho phép thí sinh được nộp hồ sơ trực tuyến với hình thức đơn giản và dễ dàng. Thí sinh tham gia xét tuyển có thể đăng ký xét tuyển trực tuyến tại đây</p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>   
             </div>

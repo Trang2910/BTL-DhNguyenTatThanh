@@ -36,7 +36,7 @@
                         <input type="submit" name="login" value="Đăng nhập" style="border: none; border-radius: 10px; height: 30px;background-color: #FFFAF0; margin-left: 5px;">
                         <?php 
                             if(isset($_POST['login'])){
-                                header('location:login/login.php');
+                                header('location:1backend/admin');
                             } 
                         ?>
                     </form> 

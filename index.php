@@ -1,3 +1,8 @@
+<?php
+        $conn = mysqli_connect('localhost','root','','web') or die('Kết nối thất bại!'.mysqli_connect_error());
+        mysqli_query($conn, 'SET NAMES UTF8');
+
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -83,17 +88,23 @@
           <h5><a href="">Tin tức</a></h5>
           <br>
           <div class="row">
+            <?php
+              $sql = mysqli_query($conn,"SELECT * FROM posts order by id ASC limit 3") or die(mysqli_error($conn));
+               while($row = mysqli_fetch_assoc($sql)) :
+                
+            ?>
             <div class="col-md-4">
               <div class="card" >
-                <a href="News1.php"><img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201908_TIN/36996677083_a06a2a29fc_o.jpg" class="card-img-top" alt="..." ></a>
+                <a href="News1.php"><?php echo "<img style='height:auto;width:100%;' src='1backend/admin/".$row['image']."'>"; ?></a>
                 <div class="card-body">
-                  <a href="News1.php">Những lý do nên chọn học thạc sĩ tại Trường ĐH Nguyễn Tất Thành</a>
+                  <a href="News1.php"><?php echo $row['title']; ?></a>
                   <br><br>
-                  <p style="text-align: justify;">NTTU - Hiện nay, có rất nhiều trường ĐH được đào tạo thạc sĩ, tiến sĩ… nhu cầu người học cũng nhiều nhưng để tìm được một môi trường học tập có chất lượng đào tạo cao,  đáp ứng được nhu cầu của các học viên </p>
+                  <p style="text-align: justify;"><?php echo $row['content']; ?></p>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <?php endwhile; ?>
+            <!-- <div class="col-md-4">
               <div class="card" >
                 <a href="News2.php"><img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201909_TIN/13(1).JPG" class="card-img-top" alt="..." ></a> 
                 <div class="card-body">
@@ -112,7 +123,7 @@
                   <p>NTTU - ĐH Nguyễn Tất Thành tuyển sinh liên thông các ngành đào tạo...</p>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
           <ul class="list-unstyled" style="float: right;">
             <li><a class="c-blue-a5 font-weight-bold" href="" style="color: #024282; font-size: 13px;"><i class="fa fa-chevron-circle-right mr-2 c-blue-a5"></i>Xem thêm</a></li>
@@ -255,7 +266,7 @@
 
           <div class="col-md-4">
             <h5><a href="">Môi trường học tập</a></h5>
-            br
+            <br>
             <div class="card" style="    flex-direction: column;">
               <a class="" href="Moitruonghoctap.php">
                 <img src="http://ntt.edu.vn/web/upload/images/Tin_Tuc/201909_TIN/37635775082_b83f872e6e_o.jpg" alt="" class="img">
